@@ -1,0 +1,10 @@
+# constants
+
+PI = 3.1415
+GRAVITY = 9.8
+
+USER_ACCOUNT = "athensoft@gmail.com"
+
+# bad practice
+# DO NOT CHANGE THE VALUE ONCE YOU DECLARED AND ASSIGNED IT WITH A VALUE
+PI = 4
