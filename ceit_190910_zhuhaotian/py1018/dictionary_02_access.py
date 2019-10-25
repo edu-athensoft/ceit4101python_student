@@ -7,3 +7,6 @@ print(my_dict[3])
 
 # the length of dictionary
 print(len(my_dict))
+
+# using get()
+print(my_dict.get('age'))
