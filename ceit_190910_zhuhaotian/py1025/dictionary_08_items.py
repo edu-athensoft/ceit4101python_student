@@ -18,3 +18,4 @@ print('Original items:', items)
 # delete an item from dictionary
 del[sales['apple']]
 print('Updated items:', items)
+
