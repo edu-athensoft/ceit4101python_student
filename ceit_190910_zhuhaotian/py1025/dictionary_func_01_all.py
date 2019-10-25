@@ -2,7 +2,7 @@
 # Return True if all keys of the dictionary are true (or if the dictionary is empty).
 
 # All values are true	        True
-# All values are false	    False
+# All values are false	        False
 # One value is true (others are false)	False
 # One value is false (others are true)	False
 # Empty Iterable	            True
@@ -28,6 +28,8 @@ print(all(my_dict))
 # empty iterable
 my_dict = []
 print(all(my_dict))
+print()
+print()
 
 
 
@@ -43,13 +45,14 @@ print(all(s))
 
 s = ''
 print(all(s))
-
+print()
+print()
 
 
 # How all() works with Python dictionaries?
 # In case of dictionaries,
 # if all keys (not values) are true or the dictionary is empty, all() returns True.
-# Else, it returns false for all other cases..
+# Else, it returns false for all other cases.
 s = {0: 'False', 1: 'False'}
 print(all(s))
 

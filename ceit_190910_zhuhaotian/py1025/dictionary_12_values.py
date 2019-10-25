@@ -13,7 +13,7 @@ print(sales.values())
 
 
 # random sales dictionary
-sales = { 'apple': 2, 'orange': 3, 'grapes': 4 }
+sales = { 'apple': 2, 'orange': 3, 'grapes': 4, 'watermelon': 4 }
 
 values = sales.values()
 print('Original items:', values)

@@ -21,6 +21,8 @@ print(any(l))
 l = []
 print(any(l))
 
+print()
+print()
 
 
 
@@ -35,6 +37,8 @@ print(any(s))
 
 s = ''
 print(any(s))
+print()
+print()
 
 
 
@@ -58,4 +62,7 @@ print(any(d))
 # 0 is False
 # '0' is True
 d = {'0': 'False'}
+print(any(d))
+
+d = {'': 'False'}
 print(any(d))
