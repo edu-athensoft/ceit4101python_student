@@ -51,6 +51,17 @@ my_dict = {
 }
 print(my_dict)
 
+# Can value be None?
+# YES
+
+# Can key be None?
+# YES
+
+# Can it be more than 1 None?
+# YES, but the last one takes effect
+
+# Can key be ''?
+# YES
 
 my_dict = dict([(1,'apple'), (2,'ball')])
 print(my_dict)
