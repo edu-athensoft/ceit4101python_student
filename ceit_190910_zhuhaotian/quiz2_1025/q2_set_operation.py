@@ -6,7 +6,6 @@ B = {4,5,6,7,8}
 set_union = A | B
 print(set_union)
 
-
 set_inter = A & B
 print(set_inter)
 

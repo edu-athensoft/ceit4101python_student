@@ -1,6 +1,6 @@
 # check if a string is palindrome
 
-str = "Dad"
+str = "abba"
 
 str = str.casefold();
 print("str=",str)
