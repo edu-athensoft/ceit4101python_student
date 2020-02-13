@@ -24,7 +24,7 @@ print("=== Student Grade System ===")
 score = int(input("Enter your score [integer]:"))
 # print("score =",score)
 # business logic, get grade
-grade = 'ABSENT'
+grade = ''
 if score >=90 :
     grade = 'A'
 elif score >= 80 :
@@ -36,7 +36,7 @@ elif score >= 60 :
 elif score >= 1 :
     grade = 'F'
 else:
-    pass
+    grade = 'ABSENT'
 # output
 print("You got a grade of {}".format(grade))
 
