@@ -21,5 +21,14 @@ def function_name(parameters):
 	statement(s)
 """
 
+def add(a, b):
+    return a + b
+
+
+n1 = input("n1")
+n2 = input("n2")
+result = add(n1, n2)
+print(result)
+
 
 
